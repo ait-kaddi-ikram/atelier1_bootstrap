@@ -1,0 +1,45 @@
+@font-face
+{
+   font-family:"ballpark";
+   src:url("ballpark.ttf");    
+}
+body{
+    background: url('m4.jpg') ;
+    background-repeat :no-repeat;
+    font-family: 'Trebuchet MS',Arial, sans-serif;
+
+}
+
+.logo{
+    margin: 10px;
+}
+.titre{
+    margin-inline-start: 40px;
+    font-size: 60px;
+}
+header{
+    
+    background-color:black;
+    opacity: 0.6;
+}
+header h1{
+    font-family: 'ballpark';
+    color :green;
+    margin-block-start: 30px;
+
+}
+nav{
+    margin-left: 12px;
+    border-right: 50px;
+}
+
+
+.espace{
+    margin-block-start: 20px;
+    margin-left:50px;
+    margin-right:50px;
+    background-color:white;
+    opacity: 1;
+    color:black;
+    margin-block-start: 20px;
+}

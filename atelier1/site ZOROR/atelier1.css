@@ -1,0 +1,262 @@
+
+
+/* Définition des polices personnalisées */
+
+@font-face
+{
+   font-family:"ballpark";
+   src:url("ballpark.ttf");    
+}
+
+@font-face
+{
+    font-family: 'dayrom';
+    src: url('dayrom.ttf');
+  
+}
+body{
+    background-color:#FFFACD ;
+    font-family: 'Trebuchet MS',Arial, sans-serif;
+
+}
+
+header {
+    margin: 10px;
+    
+}
+ .zozor_logo{
+    margin : 18px;
+     height : 20 px;
+ }
+ .zohor {
+    
+    font-size: 50px;
+    font-family:"ballpark";
+    
+ }
+ .carnet {
+     font-size: 20px;
+     font-family:'dayrom';
+
+ }
+
+
+
+ nav a
+{
+    font-family: Dayrom, serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+    margin-left: 55rem;
+}
+
+nav li
+{
+    margin-right: 40px;
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+
+.ligne{
+    
+    background-image: url('separateur.png');
+    background-repeat: repeat-x;
+    margin:20px;
+}
+#sanfImg
+{   margin-inline-start: 20px;
+    margin-inline-end: 20px;
+    margin-top: 15px;
+    height: 200px;
+    border-radius: 5px;
+    background: url('sanfrancisco.jpg')no-repeat;
+    
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+    /*c'est moi qui  a ajouté border*/
+    
+}
+
+
+
+
+ #descImg{
+    position: absolute;
+    bottom: 0;
+    border-radius: 0px 0px 5px 5px;
+    width: 100%;
+    height: 33px;
+    padding-top: 15px;
+    padding-left: 4px;
+    background-color: rgba(24,24,24,0.8);
+    color: white;
+    font-size: 0.8em;
+    
+}
+
+.bouton_rouge{
+   /* height: 25px;*/
+    position: absolute;
+    right: 5px;
+    bottom: 10px;
+    background: url('fond_degraderouge.png')repeat-x;
+    border: 1px solid #760001;
+    border-radius: 5px;
+    font-size: 1.2em;  
+    text-align: center;
+    padding: 3px 8px 15px 8px;
+    color: white;
+    
+    background-color:#760001;
+    text-decoration: none;
+}
+
+.bouton_rouge img
+{
+    border: 0;
+}
+
+section
+{
+
+
+display:flex;
+}
+article {
+    
+    margin :20px;
+    flex: 3;
+    margin-right: 20px;
+    margin-bottom: 3px;
+}
+  .bulle{
+      margin-right: -10px;
+      margin-block-start: 150px;
+      flex:0;
+  }
+  .triangle{
+      margin-inline-start: 700px;
+      margin-top: -22px;
+  }
+  aside{
+    
+    display: flex;
+    position:relative;
+    margin-bottom: 3px;
+    margin-right:3px;
+    margin-block: 3px;
+    flex:1.6;
+    color:white;
+}
+article,aside{
+    text-align: justify;
+}
+
+.section_strong{
+    font-family: Dayrom, serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.aside_div{
+    background-color: gray;
+    position: relative;
+    
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-block-start: 1px;
+    
+}
+aside p{
+    margin-left: 10px;
+    margin-right: 10px; 
+}
+aside h1{
+    font-size:20px;
+    font-family: Dayrom, serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+}
+.ligne1{
+    
+    background-image: url('separateur.png');
+    background-repeat: repeat-x;
+    margin:20px;
+    margin-top: -6px;
+}
+footer{
+    display:flex;
+    
+
+}
+footer h1 { font-size:20px;
+    font-family: Dayrom, serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+footer a{
+    color:brown;
+    text-decoration: none;
+    
+}
+footer div{
+    text-align: justify;
+}
+
+ #div1{
+
+    margin-bottom: 20;
+    margin-left: 20px;
+    margin-right: 20;
+    margin-block-start: 20px;
+    
+    
+}
+
+#div2{
+    
+    position: relative;
+    margin-bottom: 20;
+    margin-left: 10px;
+    margin-right: 10;
+    margin-block-start: 20px;
+    
+}
+#div21 {
+    margin-bottom: 40;
+}
+#div3{
+    
+    position: relative;
+    margin-bottom: 20;
+    margin-left: 20px;
+    margin-right: 20;
+    margin-block-start: 20px;
+    
+}
+footer img{
+    border:1px solid black;
+}
